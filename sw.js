@@ -1,5 +1,5 @@
-// Offline cache for Night Shift: ID Required (build 202610160510)
-const CACHE = 'nightshift-202610160510';
+// Offline cache for Midnight Shift: ID Required (build 202610161251)
+const CACHE = 'nightshift-202610161251';
 const FILES = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));

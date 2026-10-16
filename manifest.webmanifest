@@ -1,6 +1,6 @@
 {
-  "name": "Night Shift: ID Required",
-  "short_name": "Night Shift",
+  "name": "Midnight Shift: ID Required",
+  "short_name": "Midnight Shift",
   "description": "A 3D horror game. Check every ID. Not every customer is human.",
   "start_url": "./index.html",
   "scope": "./",
